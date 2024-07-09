@@ -1,0 +1,140 @@
+### 1. What is the difference between `==` and `===` operators?
+
+- **`==` (Equality Operator)**: Compares values with type conversion.
+  - **Example**: `8 == '8'` is `true`.
+
+- **`===` (Strict Equality Operator)**: Compares values without type conversion; both value and type must match.
+  - **Example**: `8 === '8'` is `false` (LHS is a number and RHS is a string, and `===` requires both value and type to match).
+
+### 2. Why does `console.log(typeof [])` return `'object'`?
+
+- **Arrays are Objects**: In JavaScript, arrays are a specialized type of object. Arrays inherit from `Array.prototype`, which provides array-specific methods like `push`, `pop`, `map`, `forEach`, etc.
+- **Checking for Arrays**: To specifically check if a value is an array, use `Array.isArray()` or the `instanceof` operator.
+
+### 3. What are the disadvantages of using closures?
+
+- **Memory Consumption**: Closures can lead to higher memory usage because they maintain references to the variables they capture, potentially preventing garbage collection and leading to memory leaks.
+- **Debugging Difficulty**: Debugging code that uses closures can be challenging because the state of captured variables may not be immediately clear, making it harder to track down bugs and understand the flow of the program.
+- **Execution Time**: Accessing variables in a closure can be slower than accessing local variables because the JavaScript engine has to traverse the scope chain.
+
+### 4. Why is using global variables in JavaScript considered bad?
+
+- **Namespace Pollution**: Global variables are accessible from anywhere in the code, increasing the risk of name collisions where different parts of the code might inadvertently overwrite each other’s values.
+- **Reduced Maintainability**: It becomes harder to track where global variables are being modified or used, making the code more difficult to understand, debug, and maintain.
+- **Increased Risk of Bugs**: Global variables can be changed by any part of the code, which can introduce hard-to-trace bugs as the state of the global variable can be altered unexpectedly.
+
+### 5. How to extract certain properties from an array of objects to create a new array?
+
+You can use the `map()` method to extract certain properties from an array of objects and create a new array.
+
+**Example**:
+
+```javascript
+const users = [
+  { name: 'Alice', age: 25, city: 'New York' },
+  { name: 'Bob', age: 30, city: 'Los Angeles' },
+  { name: 'Charlie', age: 35, city: 'Chicago' }
+];
+
+const userNames = users.map(user => ({
+  name: user.name,
+  city: user.city
+}));
+
+console.log(userNames);
+// Output:
+// [
+//   { name: 'Alice', city: 'New York' },
+//   { name: 'Bob', city: 'Los Angeles' },
+//   { name: 'Charlie', city: 'Chicago' }
+// ]
+```
+
+### 6. What is the difference between `charAt()` and `at()` methods in JavaScript?
+
+- **Negative Indices**: `charAt()` does not support negative indices. `at()` supports negative indices to count from the end of the string.
+- **Out of Bounds**: `charAt()` returns an empty string if the index is out of bounds. `at()` returns `undefined` if the index is out of bounds.
+
+### 7. How to reset the initial or 1st commit in Git, if possible?
+
+- Use the following command to reset the initial commit:
+  ```bash
+  git reset --hard HEAD~1
+  ```
+
+### 8. Why does `console.log(typeof [])` return `'object'`, but we can't use the `.` operator to access array values like objects?
+
+- **Array Indices**: Array elements are accessed by numerical indices, not by keys. Bracket notation allows you to use a variable to access array elements.
+- **Array Methods and Properties**: Arrays have special methods and properties that you can access using the dot operator.
+- **Dot Notation and Strings**: Dot notation requires valid JavaScript identifiers (keys must be strings that are valid variable names). Array indices are numbers, which are not valid identifiers for dot notation.
+
+### 9. Why does the `forEach` loop skip 'not defined' elements, whereas the `for` loop gives 'undefined' in an array?
+
+- **forEach Method**: The `forEach` method iterates over elements that have been explicitly defined (i.e., those with assigned values). It skips over elements that have not been initialized or explicitly set, treating them as if they do not exist.
+- **for Loop**: A traditional `for` loop iterates over all elements in the array, including those that are uninitialized (undefined). This means you will see `undefined` for any element that has not been explicitly set or initialized.
+
+### 10. How can we mimic the actions of `Array.splice` and `Array.slice` on objects?
+
+- **Mimicking `Array.splice()` on Objects**: The `splice()` method in arrays allows you to modify the contents by removing existing elements and/or adding new elements. To achieve similar functionality with objects, you can use object manipulation methods like `Object.assign()`, property deletion (`delete`), and the spread operator (`...`).
+
+**Example**:
+
+```javascript
+// Mimicking Array.splice() on an object
+
+let obj = { a: 1, b: 2, c: 3 };
+
+// Adding new properties using the spread operator
+obj = { ...obj, d: 4, e: 5 };
+
+// Removing properties using delete
+delete obj.b;
+
+console.log(obj); // { a: 1, c: 3, d: 4, e: 5 }
+```
+
+- **Mimicking `Array.slice()` on Objects**: The `slice()` method in arrays returns a shallow copy of a portion of an array into a new array object. For objects, you can achieve a similar result by creating a new object and copying the desired properties.
+
+**Example**:
+
+```javascript
+// Mimicking Array.slice() on an object
+
+let obj = { a: 1, b: 2, c: 3, d: 4 };
+
+// Creating a shallow copy of a portion of the object
+let newObj = {
+  b: obj.b,
+  c: obj.c
+};
+
+console.log(newObj); // { b: 2, c: 3 }
+```
+
+### 11. What is the "Callback Hell" problem and how to avoid it?
+
+- **Callback Hell**: "Callback Hell" refers to the situation where callbacks are nested within other callbacks several levels deep, making the code hard to read and maintain.
+
+**Ways to Avoid Callback Hell**:
+- **Use Promises**: Promises provide a cleaner way to handle asynchronous operations and avoid deeply nested callbacks. They allow chaining of operations and better error handling using `then()` and `catch()` methods.
+- **Use Async/Await**: Async functions and the `await` keyword provide syntactic sugar over promises, making asynchronous code look synchronous. This improves readability and reduces nesting.
+- **Modularization and Named Functions**: Break down complex operations into smaller, modular functions. Use named functions instead of anonymous callbacks to improve readability and reusability.
+
+### 12. Why is "Hello" being printed when we are exporting only the array?
+
+```javascript
+// file1.js
+let ar = [1, 2, 3];
+console.log("Hello");
+module.exports.ar = ar;
+
+// file2.js
+const { ar } = require('./file1.js');
+console.log(ar);
+
+// Output: "Hello" [1, 2, 3]
+```
+
+- **Execution on Load**: The "Hello" is logged because `console.log("Hello");` is executed at the time `file1.js` is loaded, regardless of whether `ar` is accessed or not in `file2.js`. This behavior is normal for how Node.js modules work: code in the module file runs as soon as it is loaded or required by another module.
+
+---
