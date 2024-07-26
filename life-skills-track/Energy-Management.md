@@ -5,24 +5,23 @@
 ### Question 1:
 What activities do you engage in to relax and enter the Calm quadrant?
 **ANSWER**-
-1. Quality Time with Loved Ones: Spending meaningful time with friends and family provides emotional support and tranquility.
-2. Playing Badminton: Engaging in badminton is both physically invigorating and enjoyable, helping to alleviate stress.
-3. Fitness Activities: Participating in fitness routines like gym workouts, running, or cycling releases endorphins, promoting relaxation.
-4. Sports Participation: Involvement in various sports activities provides a fun, active way to unwind and reduce stress.
+1. Spending Time with Family: Being with loved ones brings emotional peace and a sense of calm.
+2. Yoga and Meditation: These practices help in reducing stress and promoting relaxation.
+3. Listening to Music: Enjoying soothing music helps to unwind and relax.
 
 ### Question 2:
 When do you find yourself entering the Stress quadrant?
 **ANSWER**-
-1. Work Deadlines: Facing high-pressure projects, tight deadlines, or demanding job tasks induces stress.
-2. Unexpected Events: Sudden occurrences, such as accidents or natural disasters, can cause stress.
-3. Overwhelming Responsibilities: Balancing multiple roles, including work, family, and personal commitments, can lead to stress.
+1. High-Pressure Work Tasks: Dealing with demanding projects and tight deadlines increases stress.
+2. Unplanned Events: Unexpected incidents, like emergencies or sudden changes, can cause stress.
+3. Excessive Responsibilities: Juggling multiple responsibilities at work and home can be overwhelming.
 
 ### Question 3:
 How do you recognize being in the Excitement quadrant?
 **ANSWER**-
-1. Sense of Achievement: Achieving goals or milestones generates satisfaction and excitement.
-2. Adventure and Exploration: Pursuing adventure and new experiences, like traveling or trying new foods, sparks excitement.
-3. Social Interactions: Enjoying social time, engaging in fun activities with friends or family, signals excitement.
+1. Accomplishing Goals: Achieving targets or completing projects brings a sense of excitement and fulfillment.
+2. Trying New Activities: Engaging in new hobbies or adventures, such as travel or culinary experiences, sparks excitement.
+3. Meeting friends: Spending time with friends reduces a lot of stress and improves the excitement levels.
 
 ## 2. Understanding Energy Sources
 
@@ -33,36 +32,36 @@ How do you recognize being in the Excitement quadrant?
 ### Question 4
 Paraphrase the Sleep is Your Superpower video in brief. Only points, no explanations.
 **ANSWER**-
-1. Sleep is essential for memory and learning before and after new experiences.
-2. Sleep impacts overall well-being, benefiting both brain and body.
-3. Prioritizing good sleep is crucial for a healthy, fulfilling life.
-4. Sleep is a critical part of health and well-being, not a luxury.
+1. Sleep is crucial for cognitive function and memory retention.
+2. Sleep has significant benefits for both physical and mental health.
+3. Ensuring sufficient sleep is essential for a balanced and healthy life.
+4. Quality sleep is fundamental to overall well-being.
 
 ### Question 5
 What are some ideas you can implement to sleep better?
 **ANSWER**-
-1. Avoid Late Afternoon Caffeine: Reduce caffeine intake later in the day.
-2. Control Noise: Use white noise machines or earplugs to minimize disruptive sounds.
-3. Limit Naps: Keep daytime naps short (20-30 minutes) to avoid affecting nighttime sleep.
-4. Optimize Sleep Environment: Ensure the bedroom is cool, dark, and quiet. Invest in a comfortable mattress and pillows.
-5. Reduce Screen Time: Limit exposure to electronic devices like smartphones before bed.
+1. Avoid Late Caffeine: Cut down on caffeine consumption in the late afternoon.
+2. Control Environment Noise: Use noise-canceling devices to maintain a quiet sleep environment.
+3. Shorten Naps: Limit daytime naps to 20-30 minutes to avoid disrupting nighttime sleep.
+4. Create a Comfortable Sleep Space: Keep the bedroom cool, dark, and quiet, and invest in a supportive mattress and pillows.
+5. Limit Screen Exposure: Reduce use of electronic devices before bedtime.
 
 ## 5. Brain-Changing Benefits of Exercise
 
 ### Question 6
 Paraphrase the video - Brain-Changing Benefits of Exercise. Minimum 5 points, only points.
 **ANSWER**-
-1. Exercise immediately boosts mood, focus, and attention due to increased neurotransmitter levels.
-2. Regular exercise results in long-term improvements in memory, attention, and mood.
-3. Exercise enhances the size and strength of key brain regions.
-4. Exercise improves current well-being and protects the brain against degenerative diseases.
+1. Exercise boosts mood, focus, and attention immediately by increasing neurotransmitter levels.
+2. Consistent exercise leads to lasting improvements in cognitive functions and emotional health.
+3. Exercise promotes growth and strength in key brain areas.
+4. Physical activity enhances current health and protects against neurodegenerative conditions.
 
 ### Question 7
 What are some steps you can take to exercise more?
 **ANSWER**-
-1. Set Clear Goals
-2. Start Slow
-3. Join a Class or Club
-4. Set Mini-Goals
-5. Track Progress
-6. Celebrate Achievements
+1. Define Specific Objectives
+2. Begin with Small Steps
+3. Join Fitness Groups or Classes
+4. Establish Short-Term Goals
+5. Monitor Your Progress
+6. Reward Your Achievements
